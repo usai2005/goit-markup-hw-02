@@ -224,6 +224,10 @@ body {
     width: 370px;
 }
 
+.project {
+    text-decoration: none;
+}
+
 .project-name {
     color: var(--main-text-color);
     font-weight: 700;
