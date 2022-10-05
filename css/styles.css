@@ -13,6 +13,7 @@
     --ftr-address-text-color: #FFFFFF;
     --ftr-contact-text-color: rgba(255, 255, 255, 0.6);
     --unit-backgroung-color: #FFFFFF;
+    --project-border-color: #EEEEEE;
     }
 
 body {
@@ -87,14 +88,16 @@ body {
     font-style: normal;
 }
 
-.ftr-contact {
+.ftr-mail,
+.ftr-phone {
     text-decoration: none;
     color: var(--ftr-contact-text-color);
     font-style: normal;
 }
 
-.ftr-contact:hover,
-.ftr-contact:focus {
+.ftr-location:hover, .ftr-location:focus,
+.ftr-mail:hover, .ftr-mail:focus,
+.ftr-phone:hover, .ftr-phone:focus {
     color: var(--color-in-action);
 }
 
@@ -222,6 +225,7 @@ body {
 
 .project-unit {
     width: 370px;
+    border: 1px solid var(--project-border-color);
 }
 
 .project {
